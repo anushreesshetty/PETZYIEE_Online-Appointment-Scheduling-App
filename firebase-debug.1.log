@@ -1,0 +1,55 @@
+[debug] [2023-04-14T15:31:33.749Z] ----------------------------------------------------------------------
+[debug] [2023-04-14T15:31:33.752Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\AnushreeShetty\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-04-14T15:31:33.753Z] CLI Version:   11.27.0
+[debug] [2023-04-14T15:31:33.753Z] Platform:      win32
+[debug] [2023-04-14T15:31:33.753Z] Node Version:  v16.16.0
+[debug] [2023-04-14T15:31:33.755Z] Time:          Fri Apr 14 2023 21:01:33 GMT+0530 (India Standard Time)
+[debug] [2023-04-14T15:31:33.756Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-14T15:31:33.882Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-14T15:31:33.883Z] > authorizing via signed-in user (shetty2anushrees@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-04-14T15:31:33.905Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-14T15:31:33.906Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-14T15:31:33.906Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-04-14T15:31:33.912Z] [hub] writing locator at C:\Users\ANUSHR~1\AppData\Local\Temp\hub-petzyiee.json
+[debug] [2023-04-14T15:31:33.993Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/petzyiee/sites 
+[debug] [2023-04-14T15:31:35.269Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/petzyiee/sites 200
+[debug] [2023-04-14T15:31:35.269Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/petzyiee/sites {"sites":[{"name":"projects/petzyiee/sites/petzyiee","defaultUrl":"https://petzyiee.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-04-14T15:31:35.270Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/petzyiee/webApps/-/config [none]
+[debug] [2023-04-14T15:31:36.459Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/petzyiee/webApps/-/config 200
+[debug] [2023-04-14T15:31:36.459Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/petzyiee/webApps/-/config {"projectId":"petzyiee","appId":"1:1038803083910:web:1996b11fc03c1403836707","storageBucket":"petzyiee.appspot.com","apiKey":"AIzaSyCjKwW1yme5hiE71OzKto2f8CdtvaFN4UM","authDomain":"petzyiee.firebaseapp.com","messagingSenderId":"1038803083910","measurementId":"G-L2V770FXGH"}
+[debug] [2023-04-14T15:31:36.472Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/petzyiee [none]
+[debug] [2023-04-14T15:31:37.093Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/petzyiee 200
+[debug] [2023-04-14T15:31:37.093Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/petzyiee {"projectId":"petzyiee","projectNumber":"1038803083910","displayName":"Petzyiee","name":"projects/petzyiee","resources":{"hostingSite":"petzyiee"},"state":"ACTIVE","etag":"1_720280bc-6c0a-4029-bcba-fe67925fa18b"}
+[debug] [2023-04-14T15:31:37.095Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "petzyiee" may fail or be empty.
+[info] i  hosting[petzyiee]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[petzyiee]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:32:16 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:32:16 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:32:22 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:32:22 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:32:41 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:32:41 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:37:59 +0000] "GET /petzyie/public HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:37:59 +0000] \"GET /petzyie/public HTTP/1.1\" 404 153 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:38:08 +0000] "GET /petzyie/ HTTP/1.1" 404 147 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:38:08 +0000] \"GET /petzyie/ HTTP/1.1\" 404 147 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:38:11 +0000] "GET /petzyie/ HTTP/1.1" 404 147 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:38:11 +0000] \"GET /petzyie/ HTTP/1.1\" 404 147 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:38:20 +0000] "GET /petzyie/function HTTP/1.1" 404 155 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:38:20 +0000] \"GET /petzyie/function HTTP/1.1\" 404 155 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:44:06 +0000] "GET /petzyie/api HTTP/1.1" 404 150 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:44:06 +0000] \"GET /petzyie/api HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:44:14 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:44:14 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:54:33 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:54:33 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:15:54:35 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:15:54:35 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Apr/2023:16:04:35 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Apr/2023:16:04:35 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0\""}}
