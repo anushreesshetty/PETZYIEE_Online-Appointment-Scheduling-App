@@ -81,22 +81,3 @@ export const HeaderTop = () => {
       </section>
     )
   }
-
-// const HeaderTop = () => {
-//     return (
-//         <div style={{ height: "600px", 'width': '100%' }} className="row d-flex align-items-center container">
-//             <div className="col-md-4 col-sm-6 col-12 offset-md-1 md-mx-5">
-//                 <h1>Trust the best <br />for your pets</h1>
-//                 <p className="text-secondary">lets start with it
-//                 </p>
-//                 <Link to="/appointment" className="btn btn-primary btn-lg shadow rounded"> Book an appointment</Link>
-
-//             </div>
-//             <div className="col-md-6 col-sm-6 col-12">
-//                 <img src={chair} className="img-fluid rounded" alt="" />
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default HeaderTop;

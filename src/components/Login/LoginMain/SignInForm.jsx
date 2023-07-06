@@ -4,7 +4,7 @@ import { FaTimes } from 'react-icons/fa';
 import { Link, useHistory, useLocation, useNavigate } from 'react-router-dom';
 import { UserContext } from '../../../App';
 import log from '../../../images/doc/info.svg';
-import register from '../../../images/doc/register.svg';
+import register from '../../../images/doc/pawprint.png';
 import SignIn from './SignIn';
 import './SignInForm.css';
 import SignUp from './SignUp';
@@ -50,7 +50,7 @@ const SignInForm = () => {
                 <div className="panel right-panel">
                     <div className="content">
                         <h3>One of us ?</h3>
-                        <p>    !</p>
+                        <p>    </p>
                         <button className="iBtn transparent" onClick={() => setSignUp(false)}>Sign In</button>
                     </div>
                     <img src={`${register}`} alt="" className="pImg" />

@@ -5,7 +5,7 @@ import projImg2 from "../../../assets/images/13.jpeg"
 import projImg3 from "../../../assets/images/14.jpeg"
 import projImg4 from "../../../assets/images/15.jpeg"
 import projImg5 from "../../../assets/images/16.jpeg"
-import projImg6 from "../../../assets/17.jpeg"
+import projImg6 from "../../../assets/images/17.jpeg"
 import colorSharp2 from "../../images/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';

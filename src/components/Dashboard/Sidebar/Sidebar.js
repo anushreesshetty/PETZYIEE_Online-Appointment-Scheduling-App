@@ -27,7 +27,7 @@ const Sidebar = () => {
                 <li>
                     <Link className="text-nowrap text-white text-decoration-none">
                         <FontAwesomeIcon icon={faUser} />
-                        <span className='text-capitalize'>{user?.username}</span>   {user?.isDoctor ? "(Doctor)" : user?.isAdmin ? "(Admin)" : ""}
+                        {/* <span className='text-capitalize'>{user?.username}</span>   {user?.isDoctor ? "(Doctor)" : user?.isAdmin ? "(Admin)" : ""} */}
                     </Link>
                 </li>
                 <li>

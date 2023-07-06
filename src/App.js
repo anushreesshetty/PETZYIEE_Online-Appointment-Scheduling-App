@@ -11,9 +11,6 @@ import Home from './components/Home/Home/Home';
 import SignInForm from './components/Login/LoginMain/SignInForm';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
 import AppointMent from './components/AppointMent/AppointMent/AppointMent';
-// import AllPatients from './components/AppointMent/AllPatients/AllPatients';
-// import AddDoctor from './components/Dashboard/AddDoctor/AddDoctor';
-// import DoctorList from './components/Dashboard/DoctorList/DoctorList';
 import AddReview from './components/Dashboard/My Review/AddReview';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 
@@ -28,9 +25,6 @@ const router = createBrowserRouter([
   { path: '/', element: <Home /> },
   { path: '/login', element: <SignInForm /> },
   { path: '/dashboard', element: <Dashboard /> },
-  // { path: '/patients', element: <AllPatients /> },
-  // { path: '/addDoctor', element: <AddDoctor /> },
-  // { path: '/doctors', element: <DoctorList /> },
   { path: '/auth/review', element: <AddReview /> },
   {
     path: '/appointment',
