@@ -49,8 +49,6 @@
 # Services
 ![Services](https://github.com/anushreesshetty/petzyiee---MERN/assets/118381716/5794b80e-f9f1-4538-98d3-aff87168f85a)
 
-# Community
-![Community](https://github.com/anushreesshetty/petzyiee---MERN/assets/118381716/e5387542-a81e-4df0-8927-f9fc6f6cf401)
 
 # Contact Us
 ![Contact Us](https://github.com/anushreesshetty/petzyiee---MERN/assets/118381716/8e6bbc9c-7f1d-4e8a-9f25-08291972c956)
