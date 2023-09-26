@@ -79,4 +79,3 @@
 # Preview of Home page after the user login.
 ![Preview of Home page after the user login.](https://github.com/anushreesshetty/petzyiee---MERN/assets/118381716/830e3f28-3c48-4953-bc51-365e3c8dbdb9)
 
->>>>>>> master
