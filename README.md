@@ -7,8 +7,6 @@
 - User login page with professional handling of all kinds of validations.
 - Ability for a user to select an appointment.
 - Option to select a service and view appointment date.
-- CRUD operations and additional features.
-- Responsive design with a dynamic header and preloader.
 
 
 #### What Technology are Used In This Projects
@@ -26,12 +24,10 @@
 - Validation
 
 **Back-End:** 
-- MongoDb
 - Express
 - Cors
 - Body-Parse
 - Nodemon
-- ImageUploader 
  
 # Sign In Page (In this component functionaliy via vanila Javascript and Make this strong Pass and Validation )
 ![Sign In page]![image](https://github.com/anushreesshetty/petzyiee---MERN/assets/118381716/42483d25-856d-4efd-bd58-945d886c047e)
