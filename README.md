@@ -17,9 +17,6 @@
 - CSS5
 - Meterail UI
 - React Animation
-- Preloader
-- Alert
-- Validation
 
 **Back-End:** 
 - Express
