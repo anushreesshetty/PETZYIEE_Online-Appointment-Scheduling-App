@@ -1,5 +1,5 @@
 
-# PETZYIEE - Online scheduling pet full stack web application system
+# PETZYIEE - Online appointment Booking Pet care web application system
 
 
 ## Key Features.
@@ -28,6 +28,8 @@
 - Cors
 - Body-Parse
 - Nodemon
+  
+-Firebase for Authentication and Realtime database.
  
 # Sign In Page (In this component functionaliy via vanila Javascript and Make this strong Pass and Validation )
 ![Sign In page]![image](https://github.com/anushreesshetty/petzyiee---MERN/assets/118381716/42483d25-856d-4efd-bd58-945d886c047e)
