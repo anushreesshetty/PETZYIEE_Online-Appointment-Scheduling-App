@@ -6,8 +6,6 @@
 - Dynamic home page, serving as the landing page for all users.
 - User login page with professional handling of all kinds of validations.
 - Ability for a user to select an appointment.
-- Option to select a service and view appointment date.
-
 
 #### What Technology are Used In This Projects
 
